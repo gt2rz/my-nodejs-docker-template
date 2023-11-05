@@ -1,0 +1,16 @@
+{
+  "name": "report-exception-rabbitmq-nodejs",
+  "version": "1.0.0",
+  "description": "Microservice for consumer exceptions from rabbitmq",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
