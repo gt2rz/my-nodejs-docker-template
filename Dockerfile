@@ -8,6 +8,8 @@ WORKDIR /app
 COPY package*.json /app
 RUN npm install --only=production
 COPY . /app
+RUN chown -R node:node /app
+USER node
 EXPOSE ${PORT}
 CMD ["npm", "start"]
 
