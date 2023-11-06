@@ -1,7 +1,7 @@
 {
-  "name": "report-exception-rabbitmq-nodejs",
+  "name": "nodejs-docker-template",
   "version": "1.0.0",
-  "description": "Microservice for consumer exceptions from rabbitmq",
+  "description": "nodejs-docker-template",
   "main": "./src/index.js",
   "type": "module",
   "scripts": {
