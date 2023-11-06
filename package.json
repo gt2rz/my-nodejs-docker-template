@@ -2,7 +2,7 @@
   "name": "report-exception-rabbitmq-nodejs",
   "version": "1.0.0",
   "description": "Microservice for consumer exceptions from rabbitmq",
-  "main": "index.js",
+  "main": "./src/index.js",
   "type": "module",
   "scripts": {
     "start": "node ./dist/index.js",
